@@ -25,13 +25,13 @@ if not os.path.isfile(backup_root):
     #rsync -zavh [Source-Files-Dir] [Destination]
 
 
-# Copy or sync files locally: 
+# Copy or sync files locally:
 # rsync -zvh [Source-Files-Dir] [Destination]
 # 
-# Copy or sync directory locally: 
+# Copy or sync directory locally:
 # rsync -zavh [Source-Files-Dir] [Destination]
 
-# Copy files and directories recursively locally: 
+# Copy files and directories recursively locally:
 # rsync -zrvh [Source-Files-Dir] [Destination]
 
     
